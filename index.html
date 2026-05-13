@@ -1,36 +1,123 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Best Gym - Fitness Center</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLIENT KA NAAM - Best in Lahore</title>
     <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            background: #201df3;
+            font-family: 'Arial', sans-serif;
+            /* COLOR 1: Yahan Client Ke Business Ka Color Dalo */
+            background: linear-gradient(135deg, #1e3c72, #2a5298); 
             color: white;
             text-align: center;
-            font-family: Arial;
         }
-        img {
-            border-radius: 15px;
-            margin: 20px;
+        .top-offer {
+            /* COLOR 2: Offer Ka Color */
+            background: #ffd700;
+            color: #1e3c72;
+            padding: 12px;
+            font-size: 18px;
+            font-weight: 900;
         }
-        button {
-            background: #e3e321;
-            color: black;
+        .container { padding: 20px; }
+        h1 { 
+            font-size: 36px; 
+            margin: 20px 0 10px 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .tagline { font-size: 18px; margin-bottom: 20px; opacity: 0.9; }
+        .main-image {
+            width: 90%;
+            max-width: 400px;
+            border-radius: 20px;
+            /* COLOR 3: Border Ka Color */
+            border: 4px solid #ffd700;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+            margin: 20px 0;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
             padding: 20px;
-            border: 2px solid #27271c;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .feature-box {
+            background: rgba(255,255,255,0.15);
+            padding: 20px;
+            border-radius: 15px;
+            backdrop-filter: blur(5px);
+        }
+        .feature-box h3 { font-size: 30px; margin-bottom: 8px; }
+        .whatsapp-btn {
+            /* COLOR 4: Button Ka Color */
+            background: linear-gradient(45deg, #25D366, #128C7E);
+            color: white;
+            padding: 18px 50px;
+            border: none;
+            border-radius: 50px;
             font-size: 20px;
-            border-radius: 10px;
+            font-weight: bold;
+            margin: 20px 10px;
+            cursor: pointer;
+            box-shadow: 0 8px 25px rgba(37,211,102,0.4);
+            text-decoration: none;
+            display: inline-block;
+        }
+        .whatsapp-btn:hover { transform: scale(1.05); }
+        footer {
+            background: rgba(0,0,0,0.3);
+            padding: 20px;
+            margin-top: 30px;
+            font-size: 14px;
         }
     </style>
 </head>
 <body>
-    <h1>💪 Best Fitness Center in Town 💪</h1>
-    
-    <img src="gym-girls.jpg" width="300" alt="Women Workout at Gym">
-    
-    <p>Join Now - Start Your Fitness Journey</p>
-    <button>Join Now</button>
-    <br><br>
-    <a href="https://wa.me/923069283449"><button>📱 WhatsApp Contact</button></a>
+    <div class="top-offer">
+        🔥 SPECIAL OFFER: 30% OFF - LIMITED TIME 🔥
+    </div>
+
+    <div class="container">
+        <!-- CLIENT KA NAAM YAHAN BADLO -->
+        <h1>🍕 AL-MADINA RESTAURANT 🍕</h1>
+        <p class="tagline">Taste That Brings You Back Again & Again</p>
+        
+        <!-- CLIENT KI PHOTO YAHAN DALO -->
+        <img class="main-image" src="shop.jpg" alt="Restaurant Photo">
+        
+        <div class="features">
+            <div class="feature-box">
+                <h3>⭐</h3>
+                <p>5 Star Rating</p>
+            </div>
+            <div class="feature-box">
+                <h3>🚚</h3>
+                <p>Free Home Delivery</p>
+            </div>
+            <div class="feature-box">
+                <h3>🧑‍🍳</h3>
+                <p>Expert Chefs</p>
+            </div>
+            <div class="feature-box">
+                <h3>⏰</h3>
+                <p>Open 12PM - 2AM</p>
+            </div>
+        </div>
+
+        <!-- CLIENT KA WHATSAPP NUMBER YAHAN DALO -->
+        <a href="https://wa.me/92300xxxxxxx" class="whatsapp-btn">
+            📱 Order on WhatsApp
+        </a>
+    </div>
+
+    <footer>
+        <!-- CLIENT KA ADDRESS YAHAN DALO -->
+        <p>📍 Main Boulevard, Gulberg Lahore | 📞 0300-xxxxxxx</p>
+        <p>© 2026 Al-Madina Restaurant - All Rights Reserved</p>
+    </footer>
 </body>
 </html>
