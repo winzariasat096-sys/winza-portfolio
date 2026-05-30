@@ -1,52 +1,132 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Winza digtal Web Developer</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  font-family: Arial, sans-serif;
-  background: #f5f5f5;
-  margin: 0;
-  padding: 40px 20px;
-  text-align: center;
-}
-.box {
-  background: white;
-  max-width: 500px;
-  margin: auto;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-}
-h1 {
-  color: #2563eb;
-  font-size: 24px;
-}
-p {
-  color: #333;
-  font-size: 16px;
-  line-height: 1.6;
-}
-.btn {
-  display: inline-block;
-  background: #2563eb;
-  color: white;
-  padding: 12px 25px;
-  text-decoration: none;
-  border-radius: 8px;
-  margin-top: 15px;
-  font-weight: bold;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winza Web Development</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #0a0a0a;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            overflow-x: hidden;
+        }
+        .hero {
+            min-height: 100vh;
+            background: radial-gradient(circle at 80% 20%, rgba(255,215,0,0.15) 0%, transparent 50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .logo {
+            font-family: 'Great Vibes', cursive;
+            font-size: 70px;
+            color: #ffd700;
+            margin-bottom: 5px;
+        }
+        .logo-sub {
+            letter-spacing: 4px;
+            font-size: 12px;
+            color: #ccc;
+            margin-bottom: 40px;
+        }
+        h2 {
+            font-size: 24px;
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+        h1 {
+            font-size: 42px;
+            color: #ffd700;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+        .desc {
+            color: #bbb;
+            max-width: 600px;
+            margin: 0 auto 40px;
+            line-height: 1.7;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 800px;
+            margin: 40px auto;
+            text-align: left;
+        }
+        .feature {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #ddd;
+        }
+        .icon { color: #ffd700; font-size: 20px; }
+        .btn {
+            background: linear-gradient(135deg, #ffd700 0%, #ffb700 100%);
+            color: #000;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 30px;
+            box-shadow: 0 0 30px rgba(255,215,0,0.4);
+            transition: transform 0.3s;
+        }
+        .btn:hover { transform: scale(1.05); }
+        .footer {
+            margin-top: 60px;
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+            flex-wrap: wrap;
+            color: #aaa;
+            font-size: 14px;
+        }
+        @media(max-width: 600px) {
+            h1 { font-size: 28px; }
+            .logo { font-size: 50px; }
+        }
+    </style>
 </head>
 <body>
-<div class="box">
-  <h1>Need a Professional Website?</h1>
-  <p>I Build Fast, Mobile-Friendly Websites</p>
-  <p><b>Starting at 5,000 PKR | 24hr Delivery</b></p>
-  <p>Professional websites for small businesses in Pakistan. Fast, mobile-friendly, affordable.</p>
-  <a href="https://wa.me/9203260970149" class="btn">DM Now on inbox ane WhatsApp</a>
-</div>
+    <div class="hero">
+        <div class="logo">👑 Winza</div>
+        <div class="logo-sub">WEB DEVELOPMENT</div>
+        
+        <h2>NEED A PROFESSIONAL WEBSITE?</h2>
+        <h1>PROFESSIONAL WEBSITE<br>FOR YOUR BRAND</h1>
+        
+        <p class="desc">
+            I create modern, responsive & high performance websites 
+            that represent your brand perfectly.<br><br>
+            We Create Digital Solutions For Landing Pages, 
+            Portfolio & Business Websites.
+        </p>
+        
+        <div class="features">
+            <div class="feature"><span class="icon">✈️</span> Affordable Prices</div>
+            <div class="feature"><span class="icon">💼</span> Portfolio Websites</div>
+            <div class="feature"><span class="icon">⏰</span> Mobile Friendly</div>
+            <div class="feature"><span class="icon">🎧</span> Support 24/7</div>
+            <div class="feature"><span class="icon">⚙️</span> Fast Delivery</div>
+            <div class="feature"><span class="icon">✅</span> 100% Satisfaction</div>
+        </div>
+        
+        <button class="btn" onclick="window.location='https://wa.me/923260970149">DM ME FOR ORDERS</button>
+        
+        <div class="footer">
+            <div>📁 Portfolio: @winzwebdevelopment</div>
+            <div>📱 WhatsApp: @winzwebdevelopment</div>
+        </div>
+    </div>
 </body>
 </html>
