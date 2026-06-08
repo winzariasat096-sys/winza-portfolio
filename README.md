@@ -21,5 +21,9 @@ It motivates me to build more projects 💛
 - **WhatsApp:** [Chat on WhatsApp](https://wa.me/923260970149)
 - **Email:** winzariasat096@gmail.com
 
----**Telegram:**@winzawebdeveloper.wordpress.com
+- **Website:** [winzawebdeveloper.wordpress.com](https://winzawebdeveloper.wordpress.com)
+- **Telegram:** [Message Me](https://t.me/winzawebdevelopment)
+
+---
 *"Your vision, my code - Let's create something amazing"*
+
