@@ -26,4 +26,4 @@ It motivates me to build more projects 💛
 
 ---
 *"Your vision, my code - Let's create something amazing"*
-
+- Day 1: Portfolio started with HTML + CSS
