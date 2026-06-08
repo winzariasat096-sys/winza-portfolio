@@ -19,7 +19,7 @@ It motivates me to build more projects 💛
 
 ### 📫 Let's Work Together
 - **WhatsApp:** [Chat on WhatsApp](https://wa.me/923260970149)
-- **Email:** winza.web.dev@gmail.com
+- **Email:** winzariasat096@gmail.com
 
----
+---**Telegram:**@winzawebdeveloper.wordpress.com
 *"Your vision, my code - Let's create something amazing"*
